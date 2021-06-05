@@ -1,0 +1,91 @@
+body{
+  background-image: url("f1.jpeg");
+  /* background-color: blue; */
+}
+.maincard{
+
+  background-color: white;
+  width:300px;
+  height:300px;
+  margin: 35% auto 25% auto;
+  border-style: solid;
+  border-radius: 25px;
+  position: relative;
+
+
+}
+.sub1{
+  background-color: yellow;
+  height:15%;
+  width:100%;
+  background-image: url("p1.jpeg");
+  padding-bottom: 80px;
+  border-radius: 25px 25px 0 0;
+}
+h3{
+  margin-top: 12%;
+  text-align:center;
+  font-family: 'Ubuntu', sans-serif;
+  color: #40514E;
+  font-weight: bolder;
+  position: relative;
+  font-size: 130%;
+
+
+}
+p{
+  position: absolute;
+  bottom:22%;
+  left:40%;
+  text-align:center;
+  font-family: 'Ubuntu', sans-serif;
+  color: #40514E;
+  font-weight: bolder;
+  font-size:80%;
+
+}
+.icons{
+  height: 100px;}
+hr{
+  margin-top: 12%;
+}
+.age{
+  color:grey;
+  margin-left: 5%;
+
+
+}
+.name_age{
+  padding-top: 5%;
+
+}
+.links{
+  position: absolute;
+  bottom:0;
+  height:20.67%;
+  width: 100%;
+  background-color: #47597e;
+  /* border-style: solid; */
+  border-radius:0 0 20px 20px;
+
+}
+
+.sub3{
+  height: 100px;
+}
+.icons{
+  height:80%;
+  margin-top: 5px;
+  margin-left:20px;
+  margin-right:27px;
+  padding-bottom: 10px;
+}
+
+
+
+.dp{
+  width:40%;
+  position:absolute;
+  right:30%;
+  top:15%;
+}
