@@ -11,6 +11,8 @@ body{
   border-style: solid;
   border-radius: 25px;
   position: relative;
+  top:400px;
+  transform:scale(2);
 
 
 }
