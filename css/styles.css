@@ -2,6 +2,7 @@ body{
   background-image: url("f1.jpeg");
   /* background-color: blue; */
 }
+
 .maincard{
 
   background-color: white;
@@ -11,7 +12,7 @@ body{
   border-style: solid;
   border-radius: 25px;
   position: relative;
-  top:400px;
+  top:10px;
 
 
 }
@@ -38,7 +39,7 @@ p{
   text-align:center;
   position: absolute;
   bottom:35%;
-  left:29%;
+  left:31%;
 
 
   font-family: 'Ubuntu', sans-serif;
@@ -119,5 +120,10 @@ hr{
 }
 .dp:hover{
   transform: scale(1.1);
+}
+@media(max-width: 1000px){
+  .maincard{
+    transform: scale(2);
+  }
 }
 .instahandle{}
