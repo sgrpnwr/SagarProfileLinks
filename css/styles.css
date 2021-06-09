@@ -111,8 +111,8 @@ hr {
 
 
 @media (max-width:1000px) {
-  .maincard {
-    transform: scale(1.7);
+  p{
+    color:yellow;}
     
   }
 }
