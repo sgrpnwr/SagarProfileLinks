@@ -126,5 +126,7 @@ hr{
     transform: scale(1.35);
     margin-top:25%;
   }
+  p{color:yellow;
+  }
 }
 .instahandle{}
