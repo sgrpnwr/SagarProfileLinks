@@ -124,9 +124,7 @@ hr{
 @media(max-width: 1000px){
   .maincard{
     transform: scale(1.35);
-    margin-top:25%;
-  }
-  p{color:yellow;
+    margin-top:6rem;
   }
 }
 .instahandle{}
