@@ -1,138 +1,120 @@
-body{
+body {
   background-image: url("f1.jpeg");
-  /* background-color: blue; */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.maincard{
-
+.maincard {
   background-color: white;
-  width:400px;
-  height:500px;
-  margin: 10% auto 25% auto;
+  width: 400px;
+  height: 500px;
   border-style: solid;
   border-radius: 25px;
   position: relative;
-  top:10px;
-
-
 }
-.sub1{
+.sub1 {
   background-color: yellow;
-  height:15%;
-  width:100%;
+  height: 15%;
+  width: 100%;
   background-image: url("p1.jpeg");
   padding-bottom: 80px;
   border-radius: 25px 25px 0 0;
 }
-h3{
+h3 {
   margin-top: 12%;
-  text-align:center;
-  font-family: 'Ubuntu', sans-serif;
-  color: #40514E;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #40514e;
   font-weight: bolder;
   position: relative;
   font-size: 130%;
-
-
 }
-p{
-  text-align:center;
+p {
+  text-align: center;
   position: absolute;
-  bottom:35%;
-  left:31%;
+  bottom: 35%;
+  left: 31%;
 
-
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: black;
   font-weight: bolder;
-  font-size:90%;
-
-
+  font-size: 90%;
 }
-p:hover{
-  color:red;
+p:hover {
+  color: red;
   font-weight: bolder;
 }
-.icons{
-
-  height: 100px;}
-hr{
+.icons {
+  height: 100px;
+}
+hr {
   margin-top: 12%;
 }
-.age{
-  color:grey;
+.age {
+  color: grey;
   margin-left: 5%;
-
-
-
 }
-.name_age{
+.name_age {
   padding-top: 10%;
-
 }
-.links{
+.links {
   position: absolute;
-  bottom:0;
-  height:30%;
+  bottom: 0;
+  height: 30%;
   width: 100%;
   background-color: #47597e;
   /* border-style: solid; */
-  border-radius:0 0 20px 20px;
-
+  border-radius: 0 0 20px 20px;
 }
 
-.sub3{
+.sub3 {
   height: 100px;
 }
-.icons{
-  height:50%;
+.icons {
+  height: 50%;
   margin-top: 20px;
-  margin-left:28px;
-  margin-right:27px;
+  margin-left: 28px;
+  margin-right: 27px;
   /* padding-bottom:; */
   opacity: 0.85;
 }
-.seemywork{
-  margin:0;
-  margin-top:10px;
-  font-size:200%;
-  color:white;
+.seemywork {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 200%;
+  color: white;
 }
-.icons:hover{
+.icons:hover {
   transform: scale(1.5);
   opacity: 5;
 }
 
-.handles:hover{
+.handles:hover {
   font-size: 150%;
-  color:yellow;
+  color: yellow;
+}
+.handles {
+  margin-left: 25px;
+}
 
+.dp {
+  width: 40%;
+  position: absolute;
+  right: 30%;
+  top: 15%;
 }
-.handles{
-  margin-left:25px;
-}
-
-.dp{
-  width:40%;
-  position:absolute;
-  right:30%;
-  top:15%;
-}
-.dp:hover{
+.dp:hover {
   transform: scale(1.1);
 }
-@media(max-width: 1000px){
-  
 
-  }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
-
-    .maincard{
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .maincard {
     transform: scale(1.35);
-    margin-top:6rem;
+    margin-top: 6rem;
     position: relative;
-    bottom: 25%;}}
-.instahandle{}
+    bottom: 25%;
+  }
+}
