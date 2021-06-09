@@ -110,12 +110,7 @@ hr {
 }
 
 
-@media (max-width:1000px) {
-  p{
-    color:yellow;
-    
-  }
-}
+
 @media (max-width: 1000px) {
   .maincard{
     transform: scale(1.7)
