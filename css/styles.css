@@ -112,9 +112,7 @@ hr {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .maincard {
-    transform: scale(1.35);
-    margin-top: 6rem;
-    position: relative;
-    bottom: 25%;
+    transform: scale(1.7);
+    
   }
 }
