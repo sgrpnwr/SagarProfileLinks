@@ -2,4 +2,4 @@
 
 Card designed using pure HTML ans CSS.
 
-Link: 
+Link: https://sgrpnwr.github.io/SagarProfileLinks/
